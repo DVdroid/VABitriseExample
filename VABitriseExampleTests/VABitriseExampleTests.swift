@@ -36,4 +36,8 @@ class VABitriseExampleTests: XCTestCase {
         XCTAssertEqual(a/b, 2)
     }
 
+    func testRemainder() throws {
+        XCTAssertEqual(a%b, 0)
+    }
+
 }
